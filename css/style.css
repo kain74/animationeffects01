@@ -42,7 +42,8 @@ body {
   background-size: 40px 40px;
   transform: rotate(calc(var(--i) * 90deg));
   filter: hue-rotate(calc(var(--i) * 90deg));
-  border-radius: 150px 0;
+  border: 10px solid rgba(0, 0, 0, 0.5);
+  border-radius: 100px 0;
   animation: animate 1s linear infinite;
 }
 
